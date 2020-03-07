@@ -1,0 +1,25 @@
+{
+  "name": "docker-wkthmltopdf-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever --minUptime=1000 --spinSleepTime=2000 index.js",
+    "dev": "forever --minUptime=1000 --spinSleepTime=2000 --watch --watchIgnore=.idea/** --watchIgnore=logs/** index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micoli/docker-wkthmltopdf-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micoli/docker-wkthmltopdf-server/issues"
+  },
+  "homepage": "https://github.com/micoli/docker-wkthmltopdf-server#readme",
+  "dependencies": {
+    "fastify": "^2.12.1",
+    "fastify-metrics": "^4.0.9",
+    "forever": "^2.0.0",
+    "wkhtmltopdf": "^0.3.4",
+    "fs": "0.0.1-security"
+  }
+}
