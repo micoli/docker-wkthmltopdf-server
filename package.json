@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/micoli/docker-wkthmltopdf-server#readme",
   "dependencies": {
-    "fastify": "^2.12.1",
+    "fastify": "^2.15.1",
     "fastify-metrics": "^4.0.9",
     "forever": "^2.0.0",
     "wkhtmltopdf": "^0.3.4",
